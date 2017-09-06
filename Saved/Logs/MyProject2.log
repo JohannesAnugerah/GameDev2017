@@ -1,0 +1,663 @@
+﻿Log file open, 09/06/17 16:47:13
+LogInit:Display: Running engine for game: MyProject2
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(753012129) SRandInit(753012129).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 14.429566
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: C:/Unreal Engine 4/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.06-09.47.19:186][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.06-09.47.19:186][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.06-09.47.19:468][  0]LogInit: Computer: CSLAB-2601-27-2
+[2017.09.06-09.47.19:468][  0]LogInit: User: arifbudiman41
+[2017.09.06-09.47.19:468][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.06-09.47.19:468][  0]LogInit: High frequency timer resolution =3.118017 MHz
+[2017.09.06-09.47.19:468][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx)
+[2017.09.06-09.47.19:468][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.06-09.47.19:468][  0]LogMemory: Process Physical Memory: 273.34 MB used, 273.34 MB peak
+[2017.09.06-09.47.19:468][  0]LogMemory: Process Virtual Memory: 260.24 MB used, 260.24 MB peak
+[2017.09.06-09.47.19:468][  0]LogMemory: Physical Memory: 3107.97 MB used,  947.02 MB free, 4054.99 MB total
+[2017.09.06-09.47.19:468][  0]LogMemory: Virtual Memory: 610.22 MB used,  947.02 MB free, 8388608.00 MB total
+[2017.09.06-09.47.21:496][  0]LogInit: Using OS detected language (id-ID).
+[2017.09.06-09.47.21:496][  0]LogInit: Using OS detected locale (id-ID).
+[2017.09.06-09.47.22:651][  0]LogTextLocalizationManager: No localization for 'id-ID' exists, so 'en' will be used for the language.
+[2017.09.06-09.47.22:652][  0]LogTextLocalizationManager: No localization for 'id-ID' exists, so 'en' will be used for the locale.
+[2017.09.06-09.47.41:814][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.06-09.47.42:312][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
+[2017.09.06-09.47.42:312][  0]LogD3D11RHI:       1992/0/1771 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.09.06-09.47.42:312][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.06-09.47.42:322][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.06-09.47.42:322][  0]LogD3D11RHI:     GPU DeviceId: 0x1380 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.06-09.47.42:322][  0]LogWindows: EnumDisplayDevices:
+[2017.09.06-09.47.42:322][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750 Ti' (P:1 D:1)
+[2017.09.06-09.47.42:322][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2017.09.06-09.47.42:322][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2017.09.06-09.47.42:322][  0]LogWindows:    3. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2017.09.06-09.47.42:323][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.09.06-09.47.42:323][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.09.06-09.47.42:323][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.09.06-09.47.42:323][  0]LogWindows:    7. 'PCI GDIHOOK5' (P:0 D:0)
+[2017.09.06-09.47.42:323][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.09.06-09.47.42:323][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
+[2017.09.06-09.47.42:323][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.09.06-09.47.42:323][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.09.06-09.47.42:323][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.06-09.47.42:335][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.06-09.47.42:350][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.09.06-09.47.42:398][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Intermediate/Shaders/WorkingDirectory/5888/).
+[2017.09.06-09.47.42:398][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/arif.budiman41.CSLAB-2601-27-2/AppData/Local/Temp/UnrealShaderWorkingDir/7D872BE84C1965D9BA8B77A3AF3FCBDB/'.
+[2017.09.06-09.47.42:398][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.06-09.48.05:188][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.06-09.48.05:277][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.06-09.48.05:345][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.06-09.48.05:411][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.06-09.48.05:581][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.06-09.48.05:655][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.06-09.48.05:722][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.06-09.48.05:789][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.06-09.48.05:915][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.06-09.48.06:065][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.06-09.48.06:204][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.06-09.48.06:288][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.06-09.48.06:402][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.06-09.48.06:483][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.06-09.48.06:548][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.06-09.48.06:703][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.06-09.48.06:703][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.06-09.48.06:823][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.06-09.48.07:086][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.06-09.48.07:122][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.06-09.48.07:213][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.06-09.48.07:295][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.06-09.48.07:377][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.06-09.48.07:487][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.06-09.48.07:487][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.06-09.48.08:842][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.06-09.48.10:162][  0]LogDerivedDataCache: Loaded boot cache 1.32s 90MB C:/Users/arif.budiman41.CSLAB-2601-27-2/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.06-09.48.10:162][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/arif.budiman41.CSLAB-2601-27-2/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.09.06-09.48.10:162][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.06-09.48.10:162][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.06-09.48.10:162][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.06-09.48.10:162][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.06-09.48.10:230][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.06-09.48.10:242][  0]LogDerivedDataCache: Using Local data cache path C:/Users/arif.budiman41.CSLAB-2601-27-2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.06-09.48.10:255][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.06-09.48.10:255][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.06-09.48.10:307][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.06-09.48.10:307][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.06-09.48.14:833][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.06-09.48.14:839][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.06-09.48.15:385][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.06-09.48.15:519][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.06-09.48.15:590][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.06-09.48.15:590][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.06-09.48.15:590][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.06-09.48.23:329][  0]LogNetVersion: MyProject2 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4119263391)
+[2017.09.06-09.48.24:150][  0]LogAssetRegistry: FAssetRegistry took 0.0409 seconds to start up
+[2017.09.06-09.48.24:489][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.226387 seconds
+[2017.09.06-09.48.24:522][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.09.06-09.48.24:522][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.09.06-09.48.24:522][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.06-09.48.24:868][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.06-09.48.51:041][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.06-09.48.51:388][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.06-09.48.53:947][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.06-09.48.55:283][  0]SourceControl: Info Source control is disabled
+[2017.09.06-09.48.57:821][  0]SourceControl: Info Source control is disabled
+[2017.09.06-09.48.58:043][  0]SourceControl: Info Source control is disabled
+[2017.09.06-09.48.58:185][  0]SourceControl: Info Source control is disabled
+[2017.09.06-09.49.00:158][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.06-09.49.02:413][  0]LogEngine: Initializing Engine...
+[2017.09.06-09.49.02:497][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.06-09.49.03:440][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.06-09.49.03:441][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.06-09.49.05:574][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.06-09.49.05:918][  0]LogInit: XAudio2 using 'Speakers (4- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.06-09.49.05:930][  0]LogInit: FAudioDevice initialized.
+[2017.09.06-09.49.06:054][  0]LogDerivedDataCache: Saved boot cache 0.11s 90MB C:/Users/arif.budiman41.CSLAB-2601-27-2/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.06-09.49.06:072][  0]LogInit: Texture streaming: Enabled
+[2017.09.06-09.49.06:442][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.06-09.49.08:560][  0]LogInit: Transaction tracking system initialized
+[2017.09.06-09.49.09:698][  0]BlueprintLog: New page: Editor Load
+[2017.09.06-09.49.12:814][  0]LogInit:Warning: CVar named 'r.MobileHDR' marked up in RendererSettings was not found or is set to read-only
+[2017.09.06-09.49.13:641][  0]LocalizationService: Info Localization service is disabled
+[2017.09.06-09.49.18:019][  0]LogConsoleResponse:Display: 
+[2017.09.06-09.49.21:743][  0]LogFileCache: Scanning file cache for directory 'C:/Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/' took 0.02s
+[2017.09.06-09.49.21:743][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.06-09.49.21:754][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.06-09.49.26:646][  0]SourceControl: Info Source control is disabled
+[2017.09.06-09.49.26:748][  0]LightingResults: New page: Lighting Build
+[2017.09.06-09.49.27:277][  0]MapCheck: New page: Map Check
+[2017.09.06-09.49.27:277][  0]LightingResults: New page: Lighting Build
+[2017.09.06-09.49.30:633][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.09.06-09.49.31:694][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.06-09.49.31:869][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.06-09.49.31:997][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 75.779ms to complete.
+[2017.09.06-09.49.32:007][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 5.327
+[2017.09.06-09.49.34:104][  0]LogCollectionManager: Loaded 0 collections in 0.001511 seconds
+[2017.09.06-09.49.34:317][  0]LogFileCache: Scanning file cache for directory 'C:/Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Saved/Collections/' took 0.01s
+[2017.09.06-09.49.34:317][  0]LogFileCache: Scanning file cache for directory 'C:/Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/Developers/arifbudiman41/Collections/' took 0.01s
+[2017.09.06-09.49.34:317][  0]LogFileCache: Scanning file cache for directory 'C:/Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/Collections/' took 0.01s
+[2017.09.06-09.49.34:317][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.09.06-09.49.34:332][  0]LogContentBrowser: Native class hierarchy populated in 0.0120 seconds. Added 2329 classes and 491 folders.
+[2017.09.06-09.49.34:582][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.09.06-09.49.35:964][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.09.06-09.49.36:097][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.09.06-09.49.36:723][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.06-09.49.37:057][  0]LogSlate: Took 0.012757 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.06-09.49.37:077][  0]LogSlate: Took 0.016587 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.06-09.49.37:213][  0]LogSlate: Took 0.037203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.06-09.49.37:716][  0]LogRenderer: Reallocating scene render targets to support 856x372 NumSamples 1 (Frame:1).
+[2017.09.06-09.49.39:421][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.09.06-09.49.39:421][  0]LogLoad: (Engine Initialization) Total time: 193.27 seconds
+[2017.09.06-09.49.39:421][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.47 seconds
+[2017.09.06-09.49.39:421][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.06-09.49.39:421][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.06-09.49.39:810][  0]LogOcInput: OculusInput pre-init called
+[2017.09.06-09.49.39:813][  0]LogHMD: Starting GearVRController plugin
+[2017.09.06-09.49.40:119][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.06-09.49.40:320][  0]LogSlate: Took 0.012816 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.06-09.49.40:740][  2]LogAssetRegistry: Asset discovery search completed in 76.6087 seconds
+[2017.09.06-09.49.40:802][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.06-09.49.40:802][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000047 seconds (updated 0 objects)
+[2017.09.06-09.50.40:076][181]LogHttp:Warning: 0000000020CA4A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.06-09.50.40:076][181]LogHttp:Warning: 0000000020CA4A00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.06-09.50.40:076][181]LogHttp:Warning: 0000000020CA4A00: libcurl info message cache 1 (Closing connection 0)
+[2017.09.06-09.51.40:082][361]LogHttp:Warning: 0000000020CF9180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.06-09.51.40:082][361]LogHttp:Warning: 0000000020CF9180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.06-09.51.40:082][361]LogHttp:Warning: 0000000020CF9180: libcurl info message cache 1 (Closing connection 1)
+[2017.09.06-09.52.40:119][541]LogHttp:Warning: 000000004E8EDF00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.06-09.52.40:119][541]LogHttp:Warning: 000000004E8EDF00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.06-09.52.40:119][541]LogHttp:Warning: 000000004E8EDF00: libcurl info message cache 1 (Closing connection 2)
+[2017.09.06-09.54.40:123][901]LogHttp:Warning: 000000004E8EEC80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.06-09.54.40:123][901]LogHttp:Warning: 000000004E8EEC80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.06-09.54.40:123][901]LogHttp:Warning: 000000004E8EEC80: libcurl info message cache 1 (Closing connection 3)
+[2017.09.06-09.56.39:853][253]LogHttp:Warning: 000000004E8EEF80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.06-09.56.39:853][253]LogHttp:Warning: 000000004E8EEF80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.06-09.56.39:853][253]LogHttp:Warning: 000000004E8EEF80: libcurl info message cache 1 (Closing connection 4)
+[2017.09.06-09.57.39:855][433]LogHttp:Warning: 000000004E8ECA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.06-09.57.39:855][433]LogHttp:Warning: 000000004E8ECA00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.06-09.57.39:855][433]LogHttp:Warning: 000000004E8ECA00: libcurl info message cache 1 (Closing connection 5)
+[2017.09.06-09.58.40:189][614]LogHttp:Warning: 000000004E8EC400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.06-09.58.40:189][614]LogHttp:Warning: 000000004E8EC400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.06-09.58.40:189][614]LogHttp:Warning: 000000004E8EC400: libcurl info message cache 1 (Closing connection 6)
+[2017.09.06-10.00.06:774][614]LogSlate: Took 0.000357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.06-10.00.06:821][614]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\arif.budiman41.CSLAB-2601-27-2\Downloads\spritesheet-32x-clean.png)
+[2017.09.06-10.00.06:914][614]LogTexture:Display: Building textures: spritesheet-32x-clean (BGRA8, 1054X1054)
+[2017.09.06-10.00.20:189][825]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.09.06-10.00.40:230][771]LogHttp:Warning: 000000003A1E9600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.06-10.00.40:230][771]LogHttp:Warning: 000000003A1E9600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.06-10.00.40:230][771]LogHttp:Warning: 000000003A1E9600: libcurl info message cache 1 (Closing connection 7)
+[2017.09.06-10.01.07:708][424]LogSavePackage: Save=120.40ms
+[2017.09.06-10.01.07:708][424]LogSavePackage: Moving '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Saved/spritesheet-32x-clean11B2B54447CB5CACA7CB8EB66002DC55.tmp' to '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/spritesheet-32x-clean.uasset'
+[2017.09.06-10.01.07:772][424]LogSavePackage:Display: Finished SavePackage ../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/spritesheet-32x-clean.uasset
+[2017.09.06-10.01.10:405][697]LogSavePackage: Save=99.85ms
+[2017.09.06-10.01.10:405][697]LogSavePackage: Moving '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Saved/spritesheet-32x-cleanC0C252F349A64D1BF280B5A78BFD21F8.tmp' to '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/spritesheet-32x-clean.uasset'
+[2017.09.06-10.01.10:408][697]LogSavePackage:Display: Finished SavePackage ../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/spritesheet-32x-clean.uasset
+[2017.09.06-10.01.41:607][316]LogEditorViewport: Clicking on Actor (context menu): PlayerStart (NetworkPlayerStart)
+[2017.09.06-10.01.50:581][ 30]LogEditorViewport: Clicking on Actor (context menu): PlayerStart (NetworkPlayerStart)
+[2017.09.06-10.02.17:936][640]LogEditorViewport: Clicking on Actor (context menu): PlayerStart (NetworkPlayerStart)
+[2017.09.06-10.02.23:022][244]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.09.06-10.02.23:976][295]LogEditorViewport: Clicking on Actor (context menu): PlayerStart (NetworkPlayerStart)
+[2017.09.06-10.02.25:880][511]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.09.06-10.02.40:303][762]LogHttp:Warning: 000000005A8A9D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.06-10.02.40:303][762]LogHttp:Warning: 000000005A8A9D80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.06-10.02.40:303][762]LogHttp:Warning: 000000005A8A9D80: libcurl info message cache 1 (Closing connection 8)
+[2017.09.06-10.02.42:820][973]LogSlate: Took 0.038292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.06-10.03.00:256][199]LogSlate: Took 0.000465 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.06-10.03.09:913][226]LogSavePackage: Save=470.98ms
+[2017.09.06-10.03.09:913][226]LogSavePackage: Moving '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Saved/2DSideScrollerExampleMap_Auto1BDFEE9F945E98041736E2F8629551529.tmp' to '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap'
+[2017.09.06-10.03.09:915][226]LogSavePackage:Display: Finished SavePackage ../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap
+[2017.09.06-10.03.09:969][226]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.595
+[2017.09.06-10.03.09:969][226]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.595
+[2017.09.06-10.03.09:972][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/spritesheet-32x-clean_TileSet] ([1] browsable assets)...
+[2017.09.06-10.03.09:991][226]OBJ SavePackage:     Rendered thumbnail for [PaperTileSet /Game/2DSideScrollerBP/spritesheet-32x-clean_TileSet.spritesheet-32x-clean_TileSet]
+[2017.09.06-10.03.09:991][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/spritesheet-32x-clean_TileSet]
+[2017.09.06-10.03.10:128][226]LogSavePackage: Save=133.26ms
+[2017.09.06-10.03.10:128][226]LogSavePackage: Moving '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Saved/spritesheet-32x-clean_TileSet_Auto1C7E9010344779BA279F94790E59ED5A2.tmp' to '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/2DSideScrollerBP/spritesheet-32x-clean_TileSet_Auto1.uasset'
+[2017.09.06-10.03.10:129][226]LogSavePackage:Display: Finished SavePackage ../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/2DSideScrollerBP/spritesheet-32x-clean_TileSet_Auto1.uasset
+[2017.09.06-10.03.10:129][226]LogFileHelpers: Auto-saving content packages took 0.159
+[2017.09.06-10.04.39:724][743]LogHttp:Warning: 0000000053DAF280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.06-10.04.39:725][743]LogHttp:Warning: 0000000053DAF280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.06-10.04.39:725][743]LogHttp:Warning: 0000000053DAF280: libcurl info message cache 1 (Closing connection 9)
+[2017.09.06-10.05.40:189][448]LogHttp:Warning: 000000005B315F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.06-10.05.40:189][448]LogHttp:Warning: 000000005B315F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.06-10.05.40:189][448]LogHttp:Warning: 000000005B315F00: libcurl info message cache 1 (Closing connection 10)
+[2017.09.06-10.07.39:573][338]LogHttp:Warning: 00000000684B5300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.06-10.07.39:573][338]LogHttp:Warning: 00000000684B5300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.06-10.07.39:573][338]LogHttp:Warning: 00000000684B5300: libcurl info message cache 1 (Closing connection 11)
+[2017.09.06-10.07.55:614][864]LogSavePackage: Save=120.49ms
+[2017.09.06-10.07.55:614][864]LogSavePackage: Moving '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Saved/spritesheet-32x-clean_TileSet17841C904C2998E1E8C4F8BCDF3A4C0A.tmp' to '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/spritesheet-32x-clean_TileSet.uasset'
+[2017.09.06-10.07.55:619][864]LogSavePackage:Display: Finished SavePackage ../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/spritesheet-32x-clean_TileSet.uasset
+[2017.09.06-10.07.58:806][922]LogSavePackage: Save=165.50ms
+[2017.09.06-10.07.58:806][922]LogSavePackage: Moving '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Saved/spritesheet-32x-clean_TileSet998C7FB24B46FEC540DE789DA1E6B520.tmp' to '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/spritesheet-32x-clean_TileSet.uasset'
+[2017.09.06-10.07.58:808][922]LogSavePackage:Display: Finished SavePackage ../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/spritesheet-32x-clean_TileSet.uasset
+[2017.09.06-10.08.40:268][652]LogHttp:Warning: 000000006945AE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.06-10.08.40:268][652]LogHttp:Warning: 000000006945AE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.06-10.08.40:268][652]LogHttp:Warning: 000000006945AE00: libcurl info message cache 1 (Closing connection 12)
+[2017.09.06-10.10.39:947][ 11]LogHttp:Warning: 000000006945B400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.06-10.10.39:947][ 11]LogHttp:Warning: 000000006945B400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.06-10.10.39:947][ 11]LogHttp:Warning: 000000006945B400: libcurl info message cache 1 (Closing connection 13)
+[2017.09.06-10.11.39:624][503]LogHttp:Warning: 0000000068FD0400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.06-10.11.39:624][503]LogHttp:Warning: 0000000068FD0400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.06-10.11.39:625][503]LogHttp:Warning: 0000000068FD0400: libcurl info message cache 1 (Closing connection 14)
+[2017.09.06-10.11.40:393][563]LogRenderer: Reallocating scene render targets to support 856x612 NumSamples 1 (Frame:1).
+[2017.09.06-10.12.39:846][351]LogHttp:Warning: 0000000059631180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.06-10.12.39:846][351]LogHttp:Warning: 0000000059631180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.06-10.12.39:846][351]LogHttp:Warning: 0000000059631180: libcurl info message cache 1 (Closing connection 15)
+[2017.09.06-10.14.39:841][119]LogHttp:Warning: 000000006A4C9480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.06-10.14.39:841][119]LogHttp:Warning: 000000006A4C9480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.06-10.14.39:841][119]LogHttp:Warning: 000000006A4C9480: libcurl info message cache 1 (Closing connection 16)
+[2017.09.06-10.15.39:837][920]LogHttp:Warning: 0000000059632200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.06-10.15.39:837][920]LogHttp:Warning: 0000000059632200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.06-10.15.39:837][920]LogHttp:Warning: 0000000059632200: libcurl info message cache 1 (Closing connection 17)
+[2017.09.06-10.17.39:859][ 95]LogHttp:Warning: 0000000059630880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.06-10.17.39:859][ 95]LogHttp:Warning: 0000000059630880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.06-10.17.39:859][ 95]LogHttp:Warning: 0000000059630880: libcurl info message cache 1 (Closing connection 18)
+[2017.09.06-10.18.58:397][975]LogSavePackage: Save=103.42ms
+[2017.09.06-10.18.58:397][975]LogSavePackage: Moving '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Saved/MyTileMapB43BDA974FA66BD2F2A122A2F8F4D20D.tmp' to '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/MyTileMap.uasset'
+[2017.09.06-10.18.58:402][975]LogSavePackage:Display: Finished SavePackage ../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/MyTileMap.uasset
+[2017.09.06-10.19.39:865][671]LogHttp:Warning: 0000000059CE0700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.06-10.19.39:865][671]LogHttp:Warning: 0000000059CE0700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.06-10.19.39:865][671]LogHttp:Warning: 0000000059CE0700: libcurl info message cache 1 (Closing connection 19)
+[2017.09.06-10.21.39:897][148]LogHttp:Warning: 000000004F3BCA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.06-10.21.39:897][148]LogHttp:Warning: 000000004F3BCA00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.06-10.21.39:897][148]LogHttp:Warning: 000000004F3BCA00: libcurl info message cache 1 (Closing connection 20)
+[2017.09.06-10.21.44:906][430]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.011
+[2017.09.06-10.21.44:908][430]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/spritesheet-32x-clean_TileSet] ([1] browsable assets)...
+[2017.09.06-10.21.44:917][430]OBJ SavePackage:     Rendered thumbnail for [PaperTileSet /Game/2DSideScrollerBP/spritesheet-32x-clean_TileSet.spritesheet-32x-clean_TileSet]
+[2017.09.06-10.21.44:917][430]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/spritesheet-32x-clean_TileSet]
+[2017.09.06-10.21.45:050][430]LogSavePackage: Save=100.65ms
+[2017.09.06-10.21.45:050][430]LogSavePackage: Moving '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Saved/spritesheet-32x-clean_TileSet_Auto28EE13F70472964C22B6B2BBE4DF5E05A.tmp' to '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/2DSideScrollerBP/spritesheet-32x-clean_TileSet_Auto2.uasset'
+[2017.09.06-10.21.45:052][430]LogSavePackage:Display: Finished SavePackage ../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/2DSideScrollerBP/spritesheet-32x-clean_TileSet_Auto2.uasset
+[2017.09.06-10.21.45:052][430]LogFileHelpers: Auto-saving content packages took 0.145
+[2017.09.06-10.23.14:451][952]LogSavePackage: Save=117.74ms
+[2017.09.06-10.23.14:451][952]LogSavePackage: Moving '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Saved/spritesheet-32x-clean_TileSet9DA78F0449F6A668381BD0A17E668C27.tmp' to '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/spritesheet-32x-clean_TileSet.uasset'
+[2017.09.06-10.23.14:453][952]LogSavePackage:Display: Finished SavePackage ../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/spritesheet-32x-clean_TileSet.uasset
+[2017.09.06-10.23.39:888][188]LogHttp:Warning: 0000000059632380: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.06-10.23.39:888][188]LogHttp:Warning: 0000000059632380: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.06-10.23.39:888][188]LogHttp:Warning: 0000000059632380: libcurl info message cache 1 (Closing connection 21)
+[2017.09.06-10.23.46:692][538]LogSavePackage: Save=86.39ms
+[2017.09.06-10.23.46:692][538]LogSavePackage: Moving '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Saved/spritesheet-32x-clean_TileSet0AB7F0034BFD3DB52D0253844F62BF89.tmp' to '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/spritesheet-32x-clean_TileSet.uasset'
+[2017.09.06-10.23.46:693][538]LogSavePackage:Display: Finished SavePackage ../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/spritesheet-32x-clean_TileSet.uasset
+[2017.09.06-10.24.09:107][276]LogSavePackage: Save=87.90ms
+[2017.09.06-10.24.09:107][276]LogSavePackage: Moving '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Saved/spritesheet-32x-clean_TileSetA8AA71204BDFB726ED7CF1BEE6B22AE0.tmp' to '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/spritesheet-32x-clean_TileSet.uasset'
+[2017.09.06-10.24.09:109][276]LogSavePackage:Display: Finished SavePackage ../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/spritesheet-32x-clean_TileSet.uasset
+[2017.09.06-10.25.39:872][615]LogHttp:Warning: 0000000023E0F400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.06-10.25.39:872][615]LogHttp:Warning: 0000000023E0F400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.06-10.25.39:872][615]LogHttp:Warning: 0000000023E0F400: libcurl info message cache 1 (Closing connection 22)
+[2017.09.06-10.25.56:793][ 37]LogSavePackage: Save=18.35ms
+[2017.09.06-10.25.56:793][ 37]LogSavePackage: Moving '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Saved/MyTileMap458618084F1A9A6C442939BA2BF5B816.tmp' to '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/MyTileMap.uasset'
+[2017.09.06-10.25.56:795][ 37]LogSavePackage:Display: Finished SavePackage ../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/MyTileMap.uasset
+[2017.09.06-10.26.39:877][911]LogHttp:Warning: 0000000023E0D480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.06-10.26.39:877][911]LogHttp:Warning: 0000000023E0D480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.06-10.26.39:877][911]LogHttp:Warning: 0000000023E0D480: libcurl info message cache 1 (Closing connection 23)
+[2017.09.06-10.28.39:869][426]LogHttp:Warning: 0000000023E0CE80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.06-10.28.39:869][426]LogHttp:Warning: 0000000023E0CE80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.06-10.28.39:869][426]LogHttp:Warning: 0000000023E0CE80: libcurl info message cache 1 (Closing connection 24)
+[2017.09.06-10.29.55:240][805]LogSavePackage: Save=19.13ms
+[2017.09.06-10.29.55:240][805]LogSavePackage: Moving '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Saved/MyTileMapC1EA91DF481AD4E14414359A97290AEE.tmp' to '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/MyTileMap.uasset'
+[2017.09.06-10.29.55:243][805]LogSavePackage:Display: Finished SavePackage ../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/MyTileMap.uasset
+[2017.09.06-10.30.15:581][818]LogSavePackage: Save=91.89ms
+[2017.09.06-10.30.15:581][818]LogSavePackage: Moving '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Saved/2DSideScrollerExampleMap05F21C6B41F4507194C1A3B7522C4820.tmp' to '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2017.09.06-10.30.15:583][818]LogSavePackage:Display: Finished SavePackage ../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+[2017.09.06-10.30.15:713][818]LogSavePackage: Save=7.97ms
+[2017.09.06-10.30.15:713][818]LogSavePackage: Moving '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Saved/2DSideScrollerExampleMap_BuiltDataAFCBBCF4418AC5D59C57C598963891E0.tmp' to '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData.uasset'
+[2017.09.06-10.30.15:714][818]LogSavePackage:Display: Finished SavePackage ../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData.uasset
+[2017.09.06-10.30.39:869][561]LogHttp:Warning: 000000006945B580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.06-10.30.39:869][561]LogHttp:Warning: 000000006945B580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.06-10.30.39:869][561]LogHttp:Warning: 000000006945B580: libcurl info message cache 1 (Closing connection 25)
+[2017.09.06-10.31.04:469][708]LogSavePackage: Save=92.03ms
+[2017.09.06-10.31.04:469][708]LogSavePackage: Moving '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Saved/2DSideScrollerExampleMap22D6BCB34E8B9646E5C6BE948C2BBDCB.tmp' to '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2017.09.06-10.31.04:471][708]LogSavePackage:Display: Finished SavePackage ../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+[2017.09.06-10.31.04:490][708]LogSavePackage: Save=4.27ms
+[2017.09.06-10.31.04:490][708]LogSavePackage: Moving '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Saved/2DSideScrollerExampleMap_BuiltData62F54CE44A1A58C600431B8F11E10984.tmp' to '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData.uasset'
+[2017.09.06-10.31.04:491][708]LogSavePackage:Display: Finished SavePackage ../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData.uasset
+[2017.09.06-10.31.40:492][285]LogHttp:Warning: 0000000023D2D000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.06-10.31.40:492][285]LogHttp:Warning: 0000000023D2D000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.06-10.31.40:492][285]LogHttp:Warning: 0000000023D2D000: libcurl info message cache 1 (Closing connection 26)
+[2017.09.06-10.33.40:254][938]LogHttp:Warning: 0000000023D2DD80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.06-10.33.40:254][938]LogHttp:Warning: 0000000023D2DD80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.06-10.33.40:254][938]LogHttp:Warning: 0000000023D2DD80: libcurl info message cache 1 (Closing connection 27)
+[2017.09.06-10.34.58:982][156]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.09.06-10.35.02:611][570]Cmd: SELECT NONE
+[2017.09.06-10.35.11:722][502]LogSavePackage: Save=17.39ms
+[2017.09.06-10.35.11:722][502]LogSavePackage: Moving '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Saved/MyTileMapF1C3C9C6428B965A18156484EC319521.tmp' to '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/MyTileMap.uasset'
+[2017.09.06-10.35.11:723][502]LogSavePackage:Display: Finished SavePackage ../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/MyTileMap.uasset
+[2017.09.06-10.35.13:404][671]LogSavePackage: Save=10.67ms
+[2017.09.06-10.35.13:404][671]LogSavePackage: Moving '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Saved/spritesheet-32x-clean302EFCE346C447DA44753F8305F31C2B.tmp' to '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/spritesheet-32x-clean.uasset'
+[2017.09.06-10.35.13:405][671]LogSavePackage:Display: Finished SavePackage ../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/2DSideScrollerBP/spritesheet-32x-clean.uasset
+[2017.09.06-10.35.39:891][372]LogHttp:Warning: 0000000020CA5780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.06-10.35.39:891][372]LogHttp:Warning: 0000000020CA5780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.06-10.35.39:891][372]LogHttp:Warning: 0000000020CA5780: libcurl info message cache 1 (Closing connection 28)
+[2017.09.06-10.36.04:588][273]Cmd: QUIT_EDITOR
+[2017.09.06-10.36.04:961][273]LogExit: Preparing to exit.
+[2017.09.06-10.36.06:276][273]LogDirectoryWatcher: A directory notification for 'C:/Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/' was aborted.
+[2017.09.06-10.36.06:483][273]LogExit: Editor shut down
+[2017.09.06-10.36.06:491][273]LogExit: Transaction tracking system shut down
+[2017.09.06-10.36.07:656][273]LogObj: Freed 0b from 0 cluster array pools.
+[2017.09.06-10.36.07:656][273]LogExit: Object subsystem successfully closed.
+[2017.09.06-10.36.07:817][273]LogD3D11RHI: Shutdown
+[2017.09.06-10.36.07:817][273]LogD3D11RHI: CleanupD3DDevice
+[2017.09.06-10.36.08:003][273]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.06-10.36.08:612][273]LogModuleManager: Shutting down and abandoning module TextureEditor (526)
+[2017.09.06-10.36.08:620][273]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.09.06-10.36.08:623][273]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.09.06-10.36.08:623][273]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.09.06-10.36.08:628][273]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.09.06-10.36.08:628][273]LogDirectoryWatcher: A directory notification for 'C:/Unreal Engine 4/UE_4.16/FeaturePacks/' was aborted.
+[2017.09.06-10.36.08:635][273]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.09.06-10.36.08:635][273]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.09.06-10.36.08:635][273]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.09.06-10.36.08:635][273]LogDirectoryWatcher: A directory notification for 'C:/Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/Collections/' was aborted.
+[2017.09.06-10.36.08:635][273]LogDirectoryWatcher: A directory notification for 'C:/Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/Developers/arifbudiman41/Collections/' was aborted.
+[2017.09.06-10.36.08:635][273]LogDirectoryWatcher: A directory notification for 'C:/Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Saved/Collections/' was aborted.
+[2017.09.06-10.36.08:636][273]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.09.06-10.36.08:659][273]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.09.06-10.36.08:659][273]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.09.06-10.36.08:678][273]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.09.06-10.36.08:678][273]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.09.06-10.36.08:678][273]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.09.06-10.36.08:678][273]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.09.06-10.36.08:678][273]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.09.06-10.36.08:678][273]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.09.06-10.36.08:678][273]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.09.06-10.36.08:678][273]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.09.06-10.36.08:678][273]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.09.06-10.36.08:678][273]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.09.06-10.36.08:678][273]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.09.06-10.36.08:728][273]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.09.06-10.36.08:728][273]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.09.06-10.36.08:728][273]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.09.06-10.36.08:728][273]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.09.06-10.36.08:728][273]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.09.06-10.36.08:728][273]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.09.06-10.36.08:728][273]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.09.06-10.36.08:728][273]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.09.06-10.36.08:728][273]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.09.06-10.36.08:728][273]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.09.06-10.36.08:728][273]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.09.06-10.36.08:740][273]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.09.06-10.36.08:740][273]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.09.06-10.36.08:740][273]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.09.06-10.36.08:740][273]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.09.06-10.36.08:750][273]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.09.06-10.36.08:763][273]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.09.06-10.36.08:766][273]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.09.06-10.36.08:776][273]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.09.06-10.36.08:794][273]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.09.06-10.36.08:794][273]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.09.06-10.36.08:812][273]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.09.06-10.36.08:812][273]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.09.06-10.36.08:813][273]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.09.06-10.36.09:178][273]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.09.06-10.36.09:179][273]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.09.06-10.36.09:179][273]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.09.06-10.36.09:196][273]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.09.06-10.36.09:207][273]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.09.06-10.36.09:207][273]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.09.06-10.36.09:219][273]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.09.06-10.36.09:219][273]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.09.06-10.36.09:234][273]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.09.06-10.36.09:237][273]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.09.06-10.36.09:244][273]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.09.06-10.36.09:248][273]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.09.06-10.36.09:248][273]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.09.06-10.36.09:248][273]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.09.06-10.36.09:248][273]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.09.06-10.36.09:249][273]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.09.06-10.36.09:249][273]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.09.06-10.36.09:249][273]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.09.06-10.36.09:249][273]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.09.06-10.36.09:249][273]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.09.06-10.36.09:261][273]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.09.06-10.36.09:309][273]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.09.06-10.36.09:317][273]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.09.06-10.36.09:322][273]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.09.06-10.36.09:372][273]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.09.06-10.36.09:372][273]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.09.06-10.36.09:408][273]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.09.06-10.36.09:424][273]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.09.06-10.36.09:425][273]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.09.06-10.36.09:425][273]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.09.06-10.36.09:425][273]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.09.06-10.36.09:434][273]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.09.06-10.36.09:434][273]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.09.06-10.36.09:434][273]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.09.06-10.36.09:434][273]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.09.06-10.36.09:435][273]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.09.06-10.36.09:435][273]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.09.06-10.36.09:445][273]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.09.06-10.36.09:493][273]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.09.06-10.36.09:493][273]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.09.06-10.36.09:514][273]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.09.06-10.36.09:514][273]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.09.06-10.36.09:514][273]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.09.06-10.36.09:514][273]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.09.06-10.36.09:514][273]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.09.06-10.36.09:524][273]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.09.06-10.36.09:524][273]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.09.06-10.36.09:524][273]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.09.06-10.36.09:524][273]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.09.06-10.36.09:524][273]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.09.06-10.36.09:524][273]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.09.06-10.36.09:529][273]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.09.06-10.36.09:529][273]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.09.06-10.36.09:537][273]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.09.06-10.36.09:602][273]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.09.06-10.36.09:613][273]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.09.06-10.36.09:613][273]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.09.06-10.36.09:613][273]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.09.06-10.36.09:613][273]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.09.06-10.36.09:613][273]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.09.06-10.36.09:613][273]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.09.06-10.36.09:613][273]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.09.06-10.36.09:613][273]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.09.06-10.36.09:613][273]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.09.06-10.36.09:624][273]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.09.06-10.36.09:624][273]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.09.06-10.36.09:624][273]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.09.06-10.36.09:635][273]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.09.06-10.36.09:635][273]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.09.06-10.36.09:646][273]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.09.06-10.36.09:646][273]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.09.06-10.36.09:657][273]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.09.06-10.36.09:658][273]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.09.06-10.36.09:658][273]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.09.06-10.36.09:658][273]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.09.06-10.36.09:658][273]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.09.06-10.36.09:673][273]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.09.06-10.36.09:684][273]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.09.06-10.36.09:684][273]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.09.06-10.36.09:703][273]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.09.06-10.36.09:703][273]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.09.06-10.36.09:727][273]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.09.06-10.36.09:736][273]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.09.06-10.36.09:740][273]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.09.06-10.36.09:740][273]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.09.06-10.36.09:740][273]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.09.06-10.36.09:740][273]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.09.06-10.36.09:740][273]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.09.06-10.36.09:740][273]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.09.06-10.36.09:751][273]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.09.06-10.36.09:753][273]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.09.06-10.36.09:765][273]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.09.06-10.36.09:774][273]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.09.06-10.36.09:786][273]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.09.06-10.36.09:798][273]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.09.06-10.36.09:798][273]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.09.06-10.36.09:798][273]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.09.06-10.36.09:798][273]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.09.06-10.36.09:803][273]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.09.06-10.36.09:903][273]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.09.06-10.36.10:048][273]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.09.06-10.36.10:064][273]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.09.06-10.36.10:072][273]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.09.06-10.36.10:072][273]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.09.06-10.36.10:082][273]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.09.06-10.36.10:114][273]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.09.06-10.36.10:116][273]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.09.06-10.36.10:116][273]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.09.06-10.36.10:116][273]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.09.06-10.36.10:116][273]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.09.06-10.36.10:156][273]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.09.06-10.36.10:156][273]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.09.06-10.36.10:169][273]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.09.06-10.36.10:169][273]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.09.06-10.36.10:179][273]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.09.06-10.36.10:188][273]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.09.06-10.36.10:211][273]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.09.06-10.36.10:211][273]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.09.06-10.36.10:242][273]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.09.06-10.36.10:242][273]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.09.06-10.36.10:253][273]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.09.06-10.36.10:266][273]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.09.06-10.36.10:291][273]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.09.06-10.36.10:324][273]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.09.06-10.36.10:364][273]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.09.06-10.36.10:364][273]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.09.06-10.36.10:364][273]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.09.06-10.36.10:405][273]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.09.06-10.36.10:405][273]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.09.06-10.36.10:416][273]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.09.06-10.36.10:416][273]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.09.06-10.36.10:416][273]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.09.06-10.36.10:416][273]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.09.06-10.36.10:416][273]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.09.06-10.36.10:416][273]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.09.06-10.36.10:472][273]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.06-10.36.10:472][273]LogDirectoryWatcher: A directory notification for '../../../../../Users/arif.budiman41.CSLAB-2601-27-2/Documents/Unreal Projects/MyProject2/Content/' was aborted.
+[2017.09.06-10.36.10:472][273]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.06-10.36.10:472][273]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.09.06-10.36.10:474][273]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.09.06-10.36.10:475][273]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.09.06-10.36.10:475][273]LogModuleManager: Shutting down and abandoning module PhysXFormats (156)
+[2017.09.06-10.36.10:475][273]LogModuleManager: Shutting down and abandoning module MeshUtilities (154)
+[2017.09.06-10.36.10:487][273]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (153)
+[2017.09.06-10.36.10:500][273]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (151)
+[2017.09.06-10.36.10:500][273]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (149)
+[2017.09.06-10.36.10:508][273]LogModuleManager: Shutting down and abandoning module LevelSequence (146)
+[2017.09.06-10.36.10:508][273]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.06-10.36.10:533][273]LogDerivedDataCache: Shutdown
+[2017.09.06-10.36.10:534][273]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.06-10.36.10:534][273]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.06-10.36.10:603][273]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.06-10.36.10:734][273]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.06-10.36.10:747][273]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.06-10.36.10:785][273]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.06-10.36.10:934][273]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.06-10.36.10:934][273]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.06-10.36.10:934][273]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.06-10.36.10:937][273]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.06-10.36.10:971][273]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.09.06-10.36.10:994][273]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.09.06-10.36.10:994][273]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.09.06-10.36.11:010][273]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.06-10.36.11:010][273]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.06-10.36.11:010][273]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.06-10.36.11:010][273]LogOnline:Display: Unloading online subsystem: NULL
+[2017.09.06-10.36.11:024][273]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.06-10.36.11:044][273]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.06-10.36.11:044][273]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.06-10.36.11:044][273]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF29DBB43-492D-3130-1936-64B4D97D95B9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=8810988f4f89027779862693ec69a717%7C%7Cab7becda-ca9b-4eda-83a4-20f9dfb771ff&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.06-10.36.11:044][273]LogHttp:Warning: 0000000054B15000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.06-10.36.11:044][273]LogHttp:Warning: 0000000054B15000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.06-10.36.11:044][273]LogHttp:Warning: 0000000054B15000: libcurl info message cache 1 (Closing connection 29)
+[2017.09.06-10.36.11:101][273]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.06-10.36.11:122][273]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.09.06-10.36.11:137][273]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.09.06-10.36.11:151][273]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.09.06-10.36.11:151][273]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.09.06-10.36.11:178][273]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.09.06-10.36.11:197][273]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.09.06-10.36.11:197][273]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.09.06-10.36.11:197][273]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.09.06-10.36.11:213][273]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.09.06-10.36.11:231][273]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.09.06-10.36.11:231][273]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.09.06-10.36.11:231][273]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.09.06-10.36.11:231][273]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.09.06-10.36.11:231][273]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.09.06-10.36.11:231][273]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.09.06-10.36.11:239][273]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.06-10.36.11:242][273]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.06-10.36.11:242][273]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.06-10.36.11:262][273]LogExit: Exiting.
+[2017.09.06-10.36.11:286][273]Log file closed, 09/06/17 17:36:11
